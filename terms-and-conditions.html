@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - ImpactWednesday</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #374151;
+            background-color: #ffffff;
+        }
+
+        /* Header Section */
+        .header-section {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .header-background {
+            position: absolute;
+            inset: 0;
+            background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            filter: blur(4px) brightness(0.7);
+            transform: scale(1.1);
+        }
+
+        .header-overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba(30, 58, 138, 0.4);
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 10;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header-content h1 {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .header-content h2 {
+            color: #111827;
+            font-size: 5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+            margin-bottom: 20px;
+        }
+
+        .header-content p {
+            color: white;
+            font-size: 1.25rem;
+            max-width: 600px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        /* Important Notice */
+        .notice-box {
+            background-color: #fef2f2;
+            border-left: 4px solid #dc2626;
+            padding: 24px;
+            margin-bottom: 40px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .notice-box h3 {
+            color: #991b1b;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .notice-box p {
+            color: #7f1d1d;
+        }
+
+        .alert-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        /* Effective Date */
+        .date-info {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .date-info p {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin: 4px 0;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 48px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .section-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+            color: #2563eb;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #111827;
+            margin: 0;
+        }
+
+        .section-content {
+            background-color: #f9fafb;
+            padding: 24px;
+            border-radius: 8px;
+        }
+
+        .section-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111827;
+            margin-top: 16px;
+            margin-bottom: 8px;
+        }
+
+        .section-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .section-content p {
+            color: #374151;
+            margin-bottom: 16px;
+        }
+
+        .section-content ul {
+            list-style-type: disc;
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .section-content li {
+            color: #374151;
+            margin-bottom: 8px;
+        }
+
+        .section-content strong {
+            color: #111827;
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid #e5e7eb;
+            text-align: center;
+        }
+
+        .footer p {
+            color: #6b7280;
+            font-size: 0.875rem;
+            margin: 4px 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2rem;
+            }
+
+            .header-content h2 {
+                font-size: 3rem;
+            }
+
+            .header-content p {
+                font-size: 1rem;
+            }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 40px 16px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .header-section {
+                height: 300px;
+            }
+
+            .header-background {
+                filter: none;
+            }
+
+            .section-content {
+                background-color: white;
+                border: 1px solid #e5e7eb;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header-section">
+        <div class="header-background"></div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Terms and Conditions</h1>
+            <h2>IMPACT</h2>
+            <p>Please read these terms carefully before using our platform</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Important Notice -->
+        <div class="notice-box">
+            <h3>
+                <svg class="alert-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                </svg>
+                Important Notice
+            </h3>
+            <p>
+                By accessing and using the ImpactWednesday platform, you agree to be bound by these Terms and Conditions. 
+                If you do not agree with any part of these terms, please do not use our services.
+            </p>
+        </div>
+
+        <!-- Effective Date -->
+        <div class="date-info">
+            <p><strong>Effective Date:</strong> January 1, 2024</p>
+            <p><strong>Last Updated:</strong> January 1, 2024</p>
+        </div>
+
+        <!-- Section 1: Definitions -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <h2>1. Definitions</h2>
+            </div>
+            <div class="section-content">
+                <ul>
+                    <li><strong>"Platform"</strong> refers to the ImpactWednesday website, mobile application, and all related services.</li>
+                    <li><strong>"Service"</strong> refers to the services provided by ImpactWednesday, including restaurant discovery, booking, and donation facilitation.</li>
+                    <li><strong>"User"</strong> refers to any individual who accesses or uses the Platform.</li>
+                    <li><strong>"Restaurant Partner"</strong> refers to restaurants that have partnered with ImpactWednesday to facilitate donations.</li>
+                    <li><strong>"NGO Partner"</strong> refers to non-profit organizations that receive donations through the Platform.</li>
+                    <li><strong>"Booking"</strong> refers to a reservation made through the Platform for a restaurant table.</li>
+                    <li><strong>"Donation"</strong> refers to monetary contributions made by Users through the Platform.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 2: Acceptance of Terms -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                </svg>
+                <h2>2. Acceptance of Terms</h2>
+            </div>
+            <div class="section-content">
+                <p>
+                    By accessing or using the ImpactWednesday platform, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions and our Privacy Policy. 
+                    If you do not agree to these terms, you must not use the Platform.
+                </p>
+                <p>
+                    These terms apply to all Users, including but not limited to customers, restaurant partners, and NGO partners.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 3: User Accounts and Registration -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+                <h2>3. User Accounts and Registration</h2>
+            </div>
+            <div class="section-content">
+                <h3>3.1 Account Creation</h3>
+                <p>
+                    To use certain features of the Platform, you must create an account. You agree to provide accurate, current, 
+                    and complete information during registration and to update such information to keep it accurate, current, and complete.
+                </p>
+                <h3>3.2 Account Security</h3>
+                <p>
+                    You are responsible for maintaining the confidentiality of your account credentials and for all activities 
+                    that occur under your account. You agree to notify us immediately of any unauthorized use of your account.
+                </p>
+                <h3>3.3 Account Eligibility</h3>
+                <p>
+                    You must be at least 18 years old to create an account. By creating an account, you represent and warrant 
+                    that you meet this age requirement and have the legal capacity to enter into these Terms.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 4: Bookings and Payments -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
+                </svg>
+                <h2>4. Bookings and Payments</h2>
+            </div>
+            <div class="section-content">
+                <h3>4.1 Booking Process</h3>
+                <p>
+                    Users can make restaurant reservations through the Platform. Bookings are subject to restaurant availability 
+                    and confirmation. ImpactWednesday does not guarantee that all booking requests will be accepted.
+                </p>
+                <h3>4.2 Payment Terms</h3>
+                <p>
+                    All payments for bookings are processed through secure third-party payment processors. By making a booking, 
+                    you agree to pay all charges associated with your reservation, including applicable taxes and fees.
+                </p>
+                <h3>4.3 Cancellation Policy</h3>
+                <p>
+                    Cancellation policies vary by restaurant partner. Please review the specific cancellation policy for each 
+                    restaurant before making a booking. Refunds, if applicable, will be processed according to the restaurant's 
+                    cancellation policy and may take 5-10 business days.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 5: Donations -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+                <h2>5. Donations</h2>
+            </div>
+            <div class="section-content">
+                <h3>5.1 Donation Process</h3>
+                <p>
+                    A portion of proceeds from bookings made through the Platform may be donated to NGO partners. 
+                    The donation amount and recipient NGO are determined by the restaurant partner. ImpactWednesday facilitates 
+                    the donation process but does not control the donation amounts or recipients.
+                </p>
+                <h3>5.2 Donation Transparency</h3>
+                <p>
+                    We strive to maintain transparency regarding donations. Information about donation amounts and recipients 
+                    will be provided to Users when available. However, ImpactWednesday does not guarantee the accuracy of 
+                    donation information provided by restaurant partners.
+                </p>
+                <h3>5.3 Tax Deductibility</h3>
+                <p>
+                    Donations made through the Platform may or may not be tax-deductible, depending on the recipient NGO and 
+                    applicable tax laws. Users are responsible for determining the tax implications of their donations and 
+                    should consult with a tax professional if needed.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 6: User Conduct -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                </svg>
+                <h2>6. User Conduct</h2>
+            </div>
+            <div class="section-content">
+                <p>You agree not to use the Platform to:</p>
+                <ul>
+                    <li>Violate any applicable laws or regulations</li>
+                    <li>Infringe upon the rights of others, including intellectual property rights</li>
+                    <li>Transmit any harmful, offensive, or inappropriate content</li>
+                    <li>Engage in fraudulent, deceptive, or misleading practices</li>
+                    <li>Interfere with or disrupt the Platform or servers</li>
+                    <li>Attempt to gain unauthorized access to any part of the Platform</li>
+                    <li>Use automated systems to access the Platform without authorization</li>
+                    <li>Impersonate any person or entity or misrepresent your affiliation</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Section 7: Intellectual Property -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                </svg>
+                <h2>7. Intellectual Property</h2>
+            </div>
+            <div class="section-content">
+                <h3>7.1 Platform Content</h3>
+                <p>
+                    All content on the Platform, including but not limited to text, graphics, logos, images, and software, 
+                    is the property of ImpactWednesday or its licensors and is protected by copyright, trademark, and other 
+                    intellectual property laws.
+                </p>
+                <h3>7.2 User Content</h3>
+                <p>
+                    By submitting content to the Platform, you grant ImpactWednesday a non-exclusive, worldwide, royalty-free 
+                    license to use, reproduce, modify, and distribute such content for the purpose of operating and promoting 
+                    the Platform.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 8: Disclaimers and Limitation of Liability -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                </svg>
+                <h2>8. Disclaimers and Limitation of Liability</h2>
+            </div>
+            <div class="section-content">
+                <h3>8.1 Service Availability</h3>
+                <p>
+                    ImpactWednesday provides the Platform "as is" and "as available" without warranties of any kind, 
+                    either express or implied. We do not guarantee that the Platform will be uninterrupted, secure, or error-free.
+                </p>
+                <h3>8.2 Restaurant Services</h3>
+                <p>
+                    ImpactWednesday is not responsible for the quality, safety, or legality of restaurant services, 
+                    food quality, or any interactions between Users and restaurant partners. We act solely as a platform 
+                    connecting Users with restaurants.
+                </p>
+                <h3>8.3 Limitation of Liability</h3>
+                <p>
+                    To the maximum extent permitted by law, ImpactWednesday shall not be liable for any indirect, incidental, 
+                    special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly 
+                    or indirectly, or any loss of data, use, goodwill, or other intangible losses.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 9: Indemnification -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                </svg>
+                <h2>9. Indemnification</h2>
+            </div>
+            <div class="section-content">
+                <p>
+                    You agree to indemnify, defend, and hold harmless ImpactWednesday, its officers, directors, employees, 
+                    and agents from and against any claims, liabilities, damages, losses, and expenses, including reasonable 
+                    attorneys' fees, arising out of or in any way connected with your use of the Platform, violation of these 
+                    Terms, or infringement of any rights of another.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 10: Termination -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <h2>10. Termination</h2>
+            </div>
+            <div class="section-content">
+                <h3>10.1 Termination by User</h3>
+                <p>
+                    You may terminate your account at any time by contacting us or using the account deletion features 
+                    available on the Platform.
+                </p>
+                <h3>10.2 Termination by ImpactWednesday</h3>
+                <p>
+                    We reserve the right to suspend or terminate your account and access to the Platform at any time, 
+                    with or without notice, for any reason, including if you violate these Terms or engage in fraudulent 
+                    or illegal activities.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 11: Modifications to Terms -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <h2>11. Modifications to Terms</h2>
+            </div>
+            <div class="section-content">
+                <p>
+                    ImpactWednesday reserves the right to modify these Terms at any time. We will notify Users of material 
+                    changes by posting the updated Terms on the Platform and updating the "Last Updated" date. Your continued 
+                    use of the Platform after such modifications constitutes acceptance of the updated Terms.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 12: Governing Law and Dispute Resolution -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
+                </svg>
+                <h2>12. Governing Law and Dispute Resolution</h2>
+            </div>
+            <div class="section-content">
+                <h3>12.1 Governing Law</h3>
+                <p>
+                    These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which 
+                    ImpactWednesday operates, without regard to its conflict of law provisions.
+                </p>
+                <h3>12.2 Dispute Resolution</h3>
+                <p>
+                    Any disputes arising out of or relating to these Terms or the Platform shall be resolved through binding 
+                    arbitration in accordance with the rules of the applicable arbitration organization, except where prohibited by law.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 13: General Provisions -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <h2>13. General Provisions</h2>
+            </div>
+            <div class="section-content">
+                <h3>13.1 Entire Agreement</h3>
+                <p>
+                    These Terms, together with our Privacy Policy, constitute the entire agreement between you and ImpactWednesday 
+                    regarding the use of the Platform.
+                </p>
+                <h3>13.2 Severability</h3>
+                <p>
+                    If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall 
+                    continue in full force and effect.
+                </p>
+                <h3>13.3 Waiver</h3>
+                <p>
+                    No waiver of any term or condition of these Terms shall be deemed a further or continuing waiver of such 
+                    term or condition or any other term or condition.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 14: Contact Information -->
+        <section class="section">
+            <div class="section-header">
+                <svg class="section-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+                <h2>14. Contact Information</h2>
+            </div>
+            <div class="section-content">
+                <p>If you have any questions about these Terms and Conditions, please contact us:</p>
+                <ul>
+                    <li><strong>Email:</strong> legal@impactwednesday.com</li>
+                    <li><strong>Support:</strong> support@impactwednesday.com</li>
+                    <li><strong>Address:</strong> [Company Address]</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2024 ImpactWednesday. All rights reserved.</p>
+            <p>This document was last updated on January 1, 2024</p>
+        </div>
+    </div>
+</body>
+</html>
